@@ -1,19 +1,16 @@
-import logo from './logo.svg';
-// import './App.css';
+import React, { useState, useEffect } from "react";
+import {Row,Col,Button,Container} from 'react-bootstrap';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-       
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-       
-          Learn React
-      
-      </header>
-    </div>
+    <Container className="bg-warning" style={{height:'500px', width:'500px'}}>
+    <>
+      <h1 className="text-center">
+        New Calculator
+      </h1>
+    </>
+  </Container>
   );
 }
 
